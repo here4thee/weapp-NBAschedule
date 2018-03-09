@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class='index-info'>
+  <text class='name'>NBA赛程赛果查询</text>
+  <text class='info'>查询NBA常规赛的赛程赛果。</text>
+  <text class='info'>Developed by x.m</text>
+  <text class='info'>Ownered by ZJUCSWB</text>
+  <text class='info'>浙大计算机学院女篮</text>
+  <image src='../../images/logo.png'></image>
+</view>

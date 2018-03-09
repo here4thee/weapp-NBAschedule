@@ -1,0 +1,8 @@
+<!--pages/error/error.wxml-->
+<view class='error-info'>
+  <text>404 NOT FOUND</text>
+  <image src="../../images/kobe.jpg"></image>
+  <text>很抱歉</text>
+  <text>您要找的科比</text>
+  <text>已退出联盟</text>
+</view>

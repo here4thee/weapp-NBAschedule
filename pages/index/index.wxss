@@ -1,0 +1,29 @@
+/* pages/index/index.wxss */
+.index-info {
+  padding: 31rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+image {
+  padding: 16rpx;
+  height: 310rpx;
+  width: 310rpx;
+}
+
+text {
+  flex: 0 0 20%;
+  text-align: center;
+  padding: 31rpx;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.info {
+  font-size: 11px;
+  color: #aaaaaa;
+}

@@ -1,0 +1,19 @@
+/* pages/error/error.wxss */
+.error-info {
+  padding: 31rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+text {
+  flex: 0 0 25%;
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 31px;
+}
+
+image {
+  padding: 16rpx;
+}

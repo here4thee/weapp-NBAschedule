@@ -1,0 +1,55 @@
+<!--pages/present/present.wxml-->
+
+<view class="container">
+  <view class="schedules_title">
+    <text>{{schedules.title}}</text>
+  </view>
+
+  <view class='game-item flex-container'>
+    <view class='game'>
+      <view class='game-time'>
+        <text class='game-text'>{{schedules.live[0].title}}</text>
+      </view>
+      <view class='game-player'>
+          <view class='player-info'>
+            <image class="player-logo" src="{{schedules.live[0].player1logobig}}"></image><text class='player-name'>{{schedules.live[0].player1}}{{schedules.live[0].player1location}}</text>
+          </view>
+          <view class='player-info'>
+            <image class="player-logo" src="{{schedules.live[0].player2logobig}}"></image><text class='player-name'>{{schedules.live[0].player2}}{{schedules.live[0].player2location}}</text>
+          </view> 
+      </view>
+      <view class='game-status'>
+        <text class='game-text'>{{statusList[schedules.live[0].status]}}</text>
+      </view>
+      <view class='game-score'>
+        <text class='game-text'>{{schedules.live[0].score}}</text>
+      </view>
+    </view>
+  </view>
+
+  <block wx:for="{{schedules.tr}}">
+
+    <view class='game-item flex-container'>
+      <view class='game'>
+        <view class='game-time'>
+          <text class='game-text'>{{item.time}}</text>
+        </view>
+        <view class='game-player'>
+          <view class='player-info'>
+            <image class="player-logo" src="{{item.player1logobig}}"></image><text class='player-name'>{{item.player1}}</text>
+          </view>
+          <view class='player-info'>
+            <image class="player-logo" src="{{item.player2logobig}}"></image><text class='player-name'>{{item.player2}}</text>
+          </view> 
+        </view>
+        <view class='game-status'>
+          <text class='game-text'>{{statusList[item.status]}}</text>
+        </view>
+        <view class='game-score'>
+          <text class='game-text'>{{item.score}}</text>
+        </view>
+      </view>
+    </view>
+
+  </block>
+</view>

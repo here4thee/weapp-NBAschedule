@@ -1,0 +1,66 @@
+/**app.wxss**/
+.container {
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 50rpx 50rpx;
+  box-sizing: border-box;
+}
+
+.schedules_title {
+  text-align: center;
+  font-size: 31px;
+}
+
+.game-item {
+  margin-top: 31rpx;
+  border-bottom: 2px solid #c7c7c7;
+}
+
+.game-item:last-child {
+  border-bottom: none;
+}
+
+.game {
+  text-align: center;
+  padding-top: 16rpx;
+}
+
+.game-time {
+  margin-bottom: 16rpx;
+}
+
+.game-player {
+  display: flex;
+  margin-bottom: 16rpx;
+}
+
+.game-status {
+  margin-bottom: 16rpx;
+}
+
+.game-score {
+  margin-bottom: 16rpx;
+}
+
+.game-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.player-info {
+  flex: 0 0 50%;
+}
+
+.player-name {
+  font-size: 22px;
+  text-align: center;
+}
+
+.player-logo {
+  width: 22px;
+  height: 22px;
+}

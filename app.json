@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/yesterday/yesterday",
+    "pages/present/present",
+    "pages/tomorrow/tomorrow",
+    "pages/error/error"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "NBA SCHEDULE",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "black",
+    "backgroundColor": "#eeeeee",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "About",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/indexHL.png"
+      },
+      {
+        "pagePath": "pages/yesterday/yesterday",
+        "text": "Yesterday",
+        "iconPath": "images/history.png",
+        "selectedIconPath": "images/historyHL.png"
+      },
+      {
+        "pagePath": "pages/present/present",
+        "text": "Present",
+        "iconPath": "images/gift.png",
+        "selectedIconPath": "images/giftHL.png"
+      },
+      {
+        "pagePath": "pages/tomorrow/tomorrow",
+        "text": "Tomorrow",
+        "iconPath": "images/mystery.png",
+        "selectedIconPath": "images/mysteryHL.png"
+      }
+    ]
+  }
+}
